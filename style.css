@@ -1,5 +1,112 @@
-h1 {
+body{
+    background-color: bisque;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
     text-align: center;
-    font-size: 4em;
-    color: #010B5B;
+    position: sticky;
+    top: 110%;
+
+
+
+}
+h1{font-size: 40px;}
+.homep{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    
+
+}
+
+.homes{
+    width: 400px;
+
+    padding: 25px;
+    float: left;
+    
+}
+
+.homes2{
+    width: 400px;
+
+    padding: 25px;
+    float: right;
+    
+}
+.twitter{
+    height: 40px;
+    width: 45px;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+}
+body{
+    margin:0;
+    padding: 0;
+    min-height:100vh;
+
+}
+
+ul{
+    margin: 0 0 0 250px;
+    float: right;
+    
+}
+
+li{
+    float: left;
+
+}
+
+li a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    font-family: Arial;
+    color:white;
+    text-align: right;
+    text-decoration:none;
+    
+}
+ul li a:hover {
+    color:blueviolet
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background: black;
+}
+.img-logo{
+    width: 416px;
+    height: 39px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+
+    
+}
+
+header{
+    text-align: center;
+}
+
+.items{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+
+}
+h2{
+    padding: 25px;
+}
+.tree{
+    align-items: center;
+    text-align: center;
+ align-content: center;
+ padding: 50px;
 }
